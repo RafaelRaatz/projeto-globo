@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#area-cabecalho {
+    background-color:#014562;
+    padding: 3px;
+    text-align: center;
+}
+
+

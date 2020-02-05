@@ -3,76 +3,109 @@
     padding: 0;
 }
 
-#area-cabecalho {
+
+header{
+    text-align:center;
     background-color:#014562;
     padding: 3px;
-    text-align: center;
 }
 
-#container {
+.container {
     width: 1080px;
     margin: 0 auto;
 }
 
-/* ----- imagens ----- */
-
-#area-principal .imagens img {
-    display: flex;
-    float: left;
-    padding-top: 50px;
-    margin: 0 0 0 50px ;
-    filter: blur(0.7px) brightness(60%);
-    
+.main{
+    margin-top:30px;
 }
 
-/* ----- area noticias ----- */
+.news{
+    margin-bottom:32px;
+    margin-right:32px;
+    position: relative;
+}
 
-#noticias h2{
-    
+.news article{
+    float:left;
+    margin-right:60px;
+    position: relative;
+}
+
+.news-description{
     position: absolute;
-    display: flex;
-    float: left;
-
+    bottom: 20px;
+    z-index: 10;
+    padding: 0 20px
 }
 
-#noticias .primeira-noticia h2 {
+
+.segundo-news-description{
+    position: relative;
+    bottom: 220px;
+    padding-left: 230px ;
     
-    margin: 220px 0 0 70px;
-
 }
 
-#noticias .segunda-noticia h2 {
-  
-    margin: 220px 0 0 585px;
-        
+.news .label{
+    text-transform:uppercase;
+    color: #fff;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: sans-serif;
 }
 
-#noticias p {
+.news .segundo-label{
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: sans-serif;
+}
 
+.news .title{
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.news .segundo-title{
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+}
+
+.news .description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.news .segundo-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color:black;
+    font-family: sans-serif;
+}
+
+.news .overlay{
+    background-color: rgba(0,0,0,0.58);
+    bottom: 0;
+    left: 0;
     position: absolute;
-    display: flex;
-    float: left;
-
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 99%;
 }
 
-#noticias .primeira-noticia p {
-    
-    margin: 255px 0 0 70px;   
 
+.news .news-thumb{
+    position: relative;
+    margin-top: 20px;
 }
 
-#noticias .segunda-noticia p { 
-   
-    margin: 255px 0 0 585px;  
-
-}
-
-/* ----- formatação de texto ----- */
-
-h2{
-    color: ivory;  
-
-}
-
-p{
-    color: ivory;  }

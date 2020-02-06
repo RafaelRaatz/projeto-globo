@@ -13,6 +13,7 @@ header{
 .container {
     width: 1080px;
     margin: 0 auto;
+   
 }
 
 .main{
@@ -27,7 +28,7 @@ header{
 
 .news article{
     float:left;
-    margin-right:60px;
+    margin-right:40px;
     position: relative;
 }
 
@@ -62,6 +63,14 @@ header{
     font-family: sans-serif;
 }
 
+.news .terceira-label{
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: sans-serif;
+}
+
 .news .title{
     font-size:1.1em;
     margin-bottom: 7px;
@@ -71,6 +80,14 @@ header{
 }
 
 .news .segundo-title{
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+}
+
+.news .terceira-title{
     font-size:1.1em;
     margin-bottom: 7px;
     font-weight: bold;
@@ -92,6 +109,13 @@ header{
     font-family: sans-serif;
 }
 
+.news .terceira-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color:black;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
 .news .overlay{
     background-color: rgba(0,0,0,0.58);
     bottom: 0;
@@ -105,7 +129,20 @@ header{
 
 
 .news .news-thumb{
-    position: relative;
+    position: relative; 
     margin-top: 20px;
+    
+    
 }
+
+
+
+.news .news-thumb2{
+    position: relative; 
+    margin-top: -80px;
+    
+    
+    
+}
+
 

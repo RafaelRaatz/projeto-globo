@@ -109,13 +109,10 @@ header{
     font-family: sans-serif;
 }
 
-.news .terceira-description{
-    font-size: 0.9em;
-    line-height: 17px;
-    color:black;
-    font-family: sans-serif;
-    margin-bottom: 20px;
+.new .terceira-news-description{
+    margin-bottom: -10px;
 }
+
 .news .overlay{
     background-color: rgba(0,0,0,0.58);
     bottom: 0;
@@ -135,14 +132,52 @@ header{
     
 }
 
-
-
 .news .news-thumb2{
     position: relative; 
     margin-top: -80px;
     
     
     
+    
 }
 
+.news .news-thumb4{
+    position: relative; 
+    margin-top: 10px;
+    
+    
+}
 
+.propaganda{
+    background-color:#d3d3d3;
+    height: 130px;
+    width: 1050px;
+    
+}
+
+.anuncie {
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.brasil {
+   display: absolute;
+    margin-top: 20px;
+    text-transform:uppercase;
+    color:#014562;
+    font-weight:bold;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.brasil2 {
+    display: flex;
+    align-items: flex-end;
+     text-transform:uppercase;
+     color:#014562;
+     font-weight:bold;
+     font-size: 1.2em;
+     font-family: sans-serif;
+ }
+
+ 

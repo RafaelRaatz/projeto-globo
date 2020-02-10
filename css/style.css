@@ -171,13 +171,30 @@ header{
 }
 
 .brasil2 {
-    display: flex;
-    align-items: flex-end;
-     text-transform:uppercase;
+    text-transform:uppercase;
      color:#014562;
      font-weight:bold;
      font-size: 1.2em;
      font-family: sans-serif;
+     margin-left: 930px;
  }
+
+ #rodape{
+        display: flex;
+        background-color:#ccff33;
+        padding: 3px;
+        height: 60px;
+    }
+
+    .image-rodape{
+        margin-top: 10px;
+    }
+
+    .text-rodape{
+        margin-top: 15px;
+        margin-left: 950px;
+        font-size: 0.8em;
+    }
+ 
 
  

@@ -18,12 +18,15 @@ header{
 
 .main{
     margin-top:30px;
+    margin-left: 100px;
+    
 }
 
 .news{
     margin-bottom:32px;
     margin-right:32px;
     position: relative;
+   
 }
 
 .news article{
@@ -143,7 +146,7 @@ header{
 
 .news .news-thumb4{
     position: relative; 
-    margin-top: 10px;
+    margin-top: 15px;
     
     
 }
@@ -152,12 +155,16 @@ header{
     background-color:#d3d3d3;
     height: 130px;
     width: 1050px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
     
 }
 
 .anuncie {
     margin-top: 25px;
     margin-left: 200px;
+    padding-bottom: 25px;
 }
 
 .brasil {
@@ -168,6 +175,7 @@ header{
     font-weight:bold;
     font-size: 1.5em;
     font-family: sans-serif;
+    
 }
 
 .brasil2 {
@@ -195,6 +203,16 @@ header{
         margin-left: 950px;
         font-size: 0.8em;
     }
+
+    .linha{
+        border-bottom: green;
+        height: 2px;
+    }
+    
+    
+    .clearfix {
+        overflow: auto;
+      }
  
 
  

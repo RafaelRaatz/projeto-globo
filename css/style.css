@@ -23,9 +23,11 @@ header{
 }
 
 .news{
+   
     margin-bottom:32px;
     margin-right:32px;
     position: relative;
+
    
 }
 
@@ -154,7 +156,7 @@ header{
 .propaganda{
     background-color:#d3d3d3;
     height: 130px;
-    width: 1050px;
+    width: 1000px;
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;

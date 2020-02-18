@@ -45,7 +45,7 @@ header{
 }
 
 
-.segundo-news-description{
+.second-news-description{
     position: relative;
     bottom: 220px;
     padding-left: 230px ;
@@ -60,7 +60,7 @@ header{
     font-family: sans-serif;
 }
 
-.news .segundo-label{
+.news .second-label{
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -68,7 +68,7 @@ header{
     font-family: sans-serif;
 }
 
-.news .terceira-label{
+.news .third-label{
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -84,7 +84,7 @@ header{
     font-family: sans-serif;
 }
 
-.news .segundo-title{
+.news .second-title{
     font-size:1.1em;
     margin-bottom: 7px;
     font-weight: bold;
@@ -92,7 +92,7 @@ header{
     font-family: sans-serif;
 }
 
-.news .terceira-title{
+.news .third-title{
     font-size:1.1em;
     margin-bottom: 7px;
     font-weight: bold;
@@ -107,14 +107,14 @@ header{
     font-family: sans-serif;
 }
 
-.news .segundo-description{
+.news .second-description{
     font-size: 0.9em;
     line-height: 17px;
     color:black;
     font-family: sans-serif;
 }
 
-.new .terceira-news-description{
+.new .third-news-description{
     margin-bottom: -10px;
 }
 
@@ -133,43 +133,46 @@ header{
 .news .news-thumb{
     position: relative; 
     margin-top: 20px;
-    
-    
 }
 
-.news .news-thumb2{
+
+.news .news-thumb-two{
+    position: relative; 
+    margin-top: 20px;
+    padding: 0 0 0 12px;
+}
+
+.news .news-second-thumb{
     position: relative; 
     margin-top: -80px;
-    
-    
-    
-    
+        
 }
 
-.news .news-thumb4{
+.news .news-third-thumb{
     position: relative; 
     margin-top: 15px;
     
     
 }
 
-.propaganda{
-    background-color:#d3d3d3;
+.advertising{
+    background-color:#e9e9e9;
     height: 130px;
-    width: 1000px;
+    width: 1340px;
+    margin-left: -180px;
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
     
 }
 
-.anuncie {
+.advertise {
     margin-top: 25px;
-    margin-left: 200px;
+    margin-left: 380px;
     padding-bottom: 25px;
 }
 
-.brasil {
+.Brazil {
    display: absolute;
     margin-top: 20px;
     text-transform:uppercase;
@@ -180,7 +183,7 @@ header{
     
 }
 
-.brasil2 {
+.world {
     text-transform:uppercase;
      color:#014562;
      font-weight:bold;
@@ -189,30 +192,25 @@ header{
      margin-left: 930px;
  }
 
- #rodape{
+ #footer{
         display: flex;
         background-color:#ccff33;
         padding: 3px;
         height: 60px;
     }
 
-    .image-rodape{
+.img-footer{
         margin-top: 10px;
     }
 
-    .text-rodape{
+.text-footer{
         margin-top: 15px;
         margin-left: 950px;
         font-size: 0.8em;
     }
 
-    .linha{
-        border-bottom: green;
-        height: 2px;
-    }
     
-    
-    .clearfix {
+.clearfix {
         overflow: auto;
       }
  

@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/***** header *****/
 
 header{
     text-align:center;
@@ -11,7 +12,7 @@ header{
 }
 
 .container {
-    width: 1080px;
+    width: 1050px;
     margin: 0 auto;
    
 }
@@ -22,13 +23,14 @@ header{
     
 }
 
+/***** start first news *****/
+
 .news{
    
     margin-bottom:32px;
     margin-right:32px;
     position: relative;
 
-   
 }
 
 .news article{
@@ -44,31 +46,7 @@ header{
     padding: 0 20px
 }
 
-
-.second-news-description{
-    position: relative;
-    bottom: 220px;
-    padding-left: 230px ;
-    
-}
-
 .news .label{
-    text-transform:uppercase;
-    color: #fff;
-    font-weight:bold;
-    font-size: 0.6em;
-    font-family: sans-serif;
-}
-
-.news .second-label{
-    text-transform:uppercase;
-    color:blue;
-    font-weight:bold;
-    font-size: 0.6em;
-    font-family: sans-serif;
-}
-
-.news .third-label{
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -84,38 +62,11 @@ header{
     font-family: sans-serif;
 }
 
-.news .second-title{
-    font-size:1.1em;
-    margin-bottom: 7px;
-    font-weight: bold;
-    color:black;
-    font-family: sans-serif;
-}
-
-.news .third-title{
-    font-size:1.1em;
-    margin-bottom: 7px;
-    font-weight: bold;
-    color:black;
-    font-family: sans-serif;
-}
-
 .news .description{
     font-size: 0.9em;
     line-height: 17px;
     color: #fff;
     font-family: sans-serif;
-}
-
-.news .second-description{
-    font-size: 0.9em;
-    line-height: 17px;
-    color:black;
-    font-family: sans-serif;
-}
-
-.new .third-news-description{
-    margin-bottom: -10px;
 }
 
 .news .overlay{
@@ -129,90 +80,272 @@ header{
     height: 99%;
 }
 
-
 .news .news-thumb{
     position: relative; 
     margin-top: 20px;
 }
 
+/***** start second news *****/
 
-.news .news-thumb-two{
+.second-news{
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+.second-news article{
+    float:left;
+    margin-right:50px;
+    position: relative;
+}
+
+
+.second-news .second-label{
+    position: relative;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: sans-serif;
+    bottom: 220px;
+    padding-left: 230px ;
+    padding-bottom: 200px;
+}
+
+.second-news .second-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+    bottom: 220px;
+    padding-left: 230px ;
+}
+
+.second-news .second-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: sans-serif;
+
+    position: relative;
+    bottom: 220px;
+    padding-left: 230px ;
+
+}
+
+.second-news .second-news-thumb{
     position: relative; 
     margin-top: 20px;
-    padding: 0 0 0 12px;
-}
-
-.news .news-second-thumb{
-    position: relative; 
-    margin-top: -80px;
-        
-}
-
-.news .news-third-thumb{
-    position: relative; 
-    margin-top: 15px;
-    
     
 }
+
+/***** start third news *****/
+
+.third-news {     
+    position: relative;
+}
+
+.third-news article{
+    float:left;
+    margin-right:30px;
+    position: relative;
+}
+
+.third-news .third-label{
+    position: relative;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: sans-serif;
+}
+
+.third-news .third-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+}
+    
+.third-news .third-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: -10px;  
+}
+
+.third-news .third-news-thumb{
+    position: relative;
+    margin-top: -100px;   
+}
+
+/***** advertising start *****/
 
 .advertising{
-    background-color:#e9e9e9;
-    height: 130px;
-    width: 1340px;
-    margin-left: -180px;
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    background-color: #DCDCDC;
+    padding: 3px;
+    height: 120px;
+    text-align:center;
+    margin-top: 750px;
     
 }
 
 .advertise {
-    margin-top: 25px;
-    margin-left: 380px;
-    padding-bottom: 25px;
+    margin-top: 20px;
+    padding-bottom: 15px;
 }
 
-.Brazil {
-   display: absolute;
-    margin-top: 20px;
+/***** start fourth news *****/
+
+.fourth-news {  
+    
+position: relative;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.fourth-news article{
+    float:left;
+    margin-right:30px;
+    position: relative;
+
+}
+
+.fourth-news .fourth-label{
+    position: relative;
     text-transform:uppercase;
-    color:#014562;
+    color:blue;
     font-weight:bold;
-    font-size: 1.5em;
+    font-size: 0.6em;
     font-family: sans-serif;
+}
+
+.fourth-news .fourth-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+}
+    
+.fourth-news .fourth-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: -10px;   
+}
+
+.fourth-news .fourth-news-thumb{
+    position: relative;
+    margin-top: 10px;   
+}
+
+/***** start thursday news *****/
+
+.thursday-news {  
+    
+    position: relative;
+    margin-left: 50px;
+    padding-bottom: 20px;
     
 }
 
-.world {
+.thursday-news article{
+    float:left;
+    margin-right:30px;
+    position: relative;
+}
+
+
+.thursday-news .thursday-label{
+    position: relative;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: sans-serif;
+}
+
+.thursday-news .thursday-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+}
+    
+
+.thursday-news .thursday-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: -10px;
+
+}
+
+.thursday-news .thursday-news-thumb{
+    position: relative;
+    margin-top: 10px;
+    
+}
+
+/***** footer edition *****/
+
+#footer{
+    
+    background-color:#ccff33;
+    padding: 3px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.img-footer{
+    margin-top: 10px;
+}
+
+.text-footer{
+    margin-top: -40px;
+    margin-right: 10px;
+    font-size: 0.7em;
+    text-decoration: black;
+    text-align: end;
+    flex: end;
+}
+
+/***** text editing *****/
+  
+.Brazil {
+    display: absolute;
+     margin-top: 15px;
+     text-transform:uppercase;
+     color:#014562;
+     font-weight:bold;
+     font-size: 1.5em;
+     font-family: sans-serif;
+     margin-left: 50px;
+     
+ }
+
+ .world {
     text-transform:uppercase;
      color:#014562;
      font-weight:bold;
      font-size: 1.2em;
      font-family: sans-serif;
      margin-left: 930px;
- }
+     margin-top: 220px ;
+     
+}
 
- #footer{
-        display: flex;
-        background-color:#ccff33;
-        padding: 3px;
-        height: 60px;
-    }
-
-.img-footer{
-        margin-top: 10px;
-    }
-
-.text-footer{
-        margin-top: 15px;
-        margin-left: 950px;
-        font-size: 0.8em;
-    }
-
-    
 .clearfix {
-        overflow: auto;
-      }
- 
-
- 
+    overflow: auto;
+}

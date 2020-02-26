@@ -19,7 +19,6 @@ header{
 
 .main{
     margin-top:30px;
-    margin-left: 100px;
     
 }
 
@@ -28,14 +27,13 @@ header{
 .news{
    
     margin-bottom:32px;
-    margin-right:32px;
     position: relative;
 
 }
 
 .news article{
     float:left;
-    margin-right:40px;
+    margin-right:60px;
     position: relative;
 }
 
@@ -88,56 +86,49 @@ header{
 /***** start second news *****/
 
 .second-news{
-    position: relative;
-    padding-bottom: 50px;
-
+    margin-bottom: 32px;
 }
 
 .second-news article{
     float:left;
-    margin-right:50px;
-    position: relative;
+    margin-right:47px;
+    
 }
 
 
 .second-news .second-label{
-    position: relative;
+    float:left;
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
     font-family: sans-serif;
-    bottom: 220px;
-    padding-left: 230px ;
-    padding-bottom: 200px;
+    
 }
 
 .second-news .second-title{
-    position: relative;
+    float:left;
     font-size:1.1em;
     margin-bottom: 7px;
     font-weight: bold;
     color:black;
     font-family: sans-serif;
-    bottom: 220px;
-    padding-left: 230px ;
+    
+    
 }
 
 .second-news .second-description{
+    float:left;
     font-size: 0.9em;
     line-height: 17px;
     color: black;
     font-family: sans-serif;
-
-    position: relative;
-    bottom: 220px;
-    padding-left: 230px ;
-
 }
 
 .second-news .second-news-thumb{
-    position: relative; 
-    margin-top: 20px;
+    float:left;
+    margin-right: 10px;
+    
     
 }
 
@@ -145,11 +136,12 @@ header{
 
 .third-news {     
     position: relative;
+    margin-bottom: 32px;
 }
 
 .third-news article{
     float:left;
-    margin-right:30px;
+    margin-right:40px;
     position: relative;
 }
 
@@ -165,7 +157,7 @@ header{
 .third-news .third-title{
     position: relative;
     font-size:1.1em;
-    margin-bottom: 7px;
+    margin-bottom: 2px;
     font-weight: bold;
     color:black;
     font-family: sans-serif;
@@ -176,22 +168,19 @@ header{
     line-height: 17px;
     color: black;
     font-family: sans-serif;
-    margin-bottom: -10px;  
+     
 }
 
 .third-news .third-news-thumb{
     position: relative;
-    margin-top: -100px;   
+   
 }
 
 /***** advertising start *****/
 
 .advertising{
     background-color: #DCDCDC;
-    padding: 3px;
-    height: 120px;
     text-align:center;
-    margin-top: 750px;
     
 }
 
@@ -202,16 +191,11 @@ header{
 
 /***** start fourth news *****/
 
-.fourth-news {  
-    
-position: relative;
-    margin-left: 50px;
-    padding-bottom: 20px;
-}
+
 
 .fourth-news article{
     float:left;
-    margin-right:30px;
+    margin-right:40px;
     position: relative;
 
 }
@@ -228,7 +212,7 @@ position: relative;
 .fourth-news .fourth-title{
     position: relative;
     font-size:1.1em;
-    margin-bottom: 7px;
+    margin-bottom: 2px;
     font-weight: bold;
     color:black;
     font-family: sans-serif;
@@ -238,28 +222,23 @@ position: relative;
     font-size: 0.9em;
     line-height: 17px;
     color: black;
-    font-family: sans-serif;
-    margin-bottom: -10px;   
+    font-family: sans-serif;  
+    padding-bottom: 20px; 
 }
 
 .fourth-news .fourth-news-thumb{
     position: relative;
-    margin-top: 10px;   
+    margin-top: 2px; 
+     
 }
 
 /***** start thursday news *****/
 
-.thursday-news {  
-    
-    position: relative;
-    margin-left: 50px;
-    padding-bottom: 20px;
-    
-}
+
 
 .thursday-news article{
     float:left;
-    margin-right:30px;
+    margin-right:40px;
     position: relative;
 }
 
@@ -276,7 +255,7 @@ position: relative;
 .thursday-news .thursday-title{
     position: relative;
     font-size:1.1em;
-    margin-bottom: 7px;
+    margin-bottom: 2px;
     font-weight: bold;
     color:black;
     font-family: sans-serif;
@@ -288,13 +267,13 @@ position: relative;
     line-height: 17px;
     color: black;
     font-family: sans-serif;
-    margin-bottom: -10px;
+    padding-bottom: 20px; 
 
 }
 
 .thursday-news .thursday-news-thumb{
     position: relative;
-    margin-top: 10px;
+    margin-top: 2px;
     
 }
 
@@ -324,14 +303,14 @@ position: relative;
 /***** text editing *****/
   
 .Brazil {
-    display: absolute;
-     margin-top: 15px;
+     margin-top: 5px;
      text-transform:uppercase;
      color:#014562;
      font-weight:bold;
      font-size: 1.5em;
      font-family: sans-serif;
-     margin-left: 50px;
+    
+     
      
  }
 
@@ -341,11 +320,16 @@ position: relative;
      font-weight:bold;
      font-size: 1.2em;
      font-family: sans-serif;
-     margin-left: 930px;
-     margin-top: 220px ;
+     float: right;
      
+ 
 }
 
-.clearfix {
-    overflow: auto;
+.clearfix:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
 }

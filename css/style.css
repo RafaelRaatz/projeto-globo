@@ -13,8 +13,7 @@ header{
 
 .container {
     width: 1050px;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
 
 .main{
@@ -24,8 +23,7 @@ header{
 
 /***** start first news *****/
 
-.news{
-   
+.news{  
     margin-bottom:32px;
     position: relative;
 
@@ -167,13 +165,11 @@ header{
     font-size: 0.9em;
     line-height: 17px;
     color: black;
-    font-family: sans-serif;
-     
+    font-family: sans-serif; 
 }
 
 .third-news .third-news-thumb{
     position: relative;
-   
 }
 
 /***** advertising start *****/
@@ -228,22 +224,21 @@ header{
 
 .fourth-news .fourth-news-thumb{
     position: relative;
-    margin-top: 2px; 
-     
+    margin-top: 2px;   
 }
 
-/***** start thursday news *****/
+/***** start fifth news *****/
 
 
 
-.thursday-news article{
+.fifth-news article{
     float:left;
     margin-right:40px;
     position: relative;
 }
 
 
-.thursday-news .thursday-label{
+.fifth-news .fifth-label{
     position: relative;
     text-transform:uppercase;
     color:blue;
@@ -252,7 +247,7 @@ header{
     font-family: sans-serif;
 }
 
-.thursday-news .thursday-title{
+.fifth-news .fifth-title{
     position: relative;
     font-size:1.1em;
     margin-bottom: 2px;
@@ -262,7 +257,7 @@ header{
 }
     
 
-.thursday-news .thursday-description{
+.fifth-news .fifth-description{
     font-size: 0.9em;
     line-height: 17px;
     color: black;
@@ -271,7 +266,7 @@ header{
 
 }
 
-.thursday-news .thursday-news-thumb{
+.fifth-news .fifth-news-thumb{
     position: relative;
     margin-top: 2px;
     
@@ -301,28 +296,23 @@ header{
 }
 
 /***** text editing *****/
-  
-.Brazil {
-     margin-top: 5px;
-     text-transform:uppercase;
-     color:#014562;
-     font-weight:bold;
-     font-size: 1.5em;
-     font-family: sans-serif;
-    
-     
-     
- }
 
- .world {
+.Brazil {
+    margin-top: 5px;
     text-transform:uppercase;
-     color:#014562;
-     font-weight:bold;
-     font-size: 1.2em;
-     font-family: sans-serif;
-     float: right;
-     
- 
+    color:#014562;
+    font-weight:bold;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.world {
+    text-transform:uppercase;
+    color:#014562;
+    font-weight:bold;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    float: right;
 }
 
 .clearfix:after{

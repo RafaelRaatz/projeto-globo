@@ -297,7 +297,7 @@ header{
 
 /***** text editing *****/
 
-.Brazil {
+.section-title {
     margin-top: 5px;
     text-transform:uppercase;
     color:#014562;
@@ -306,7 +306,7 @@ header{
     font-family: sans-serif;
 }
 
-.world {
+.section-final-text {
     text-transform:uppercase;
     color:#014562;
     font-weight:bold;

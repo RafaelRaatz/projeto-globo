@@ -3,10 +3,323 @@
     padding: 0;
 }
 
-#area-cabecalho {
+/***** header *****/
+
+header{
+    text-align:center;
     background-color:#014562;
     padding: 3px;
-    text-align: center;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto; 
+}
+
+.main{
+    margin-top:30px;
+    
+}
+
+/***** start first news *****/
+
+.news{  
+    margin-bottom:32px;
+    position: relative;
+
+}
+
+.news article{
+    float:left;
+    margin-right:60px;
+    position: relative;
+}
+
+.news-description{
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    padding: 0 20px
+}
+
+.news .label{
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: 'Roboto';
+}
+
+.news .title{
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.news .description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: #fff;
+    font-family: 'Roboto'f;
+}
+
+.news .overlay{
+    background-color: rgba(0,0,0,0.58);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 99%;
+}
+
+.news .news-thumb{
+    position: relative; 
+    margin-top: 20px;
+}
+
+/***** start second news *****/
+
+.second-news{
+    margin-bottom: 32px;
+}
+
+.second-news article{
+    float:left;
+    margin-right:75px;
+    
 }
 
 
+.second-news .second-label{
+    float:left;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: 'Roboto';
+    
+}
+
+.second-news .second-title{
+    float:left;
+    font-size:1.1em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Roboto';
+    
+    
+}
+
+.second-news .second-description{
+    float:left;
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: 'Roboto';
+}
+
+.second-news .second-news-thumb{
+    float:left;
+    margin-right: 8px;
+    
+    
+}
+
+/***** start third news *****/
+
+.third-news {     
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.third-news article{
+    float:left;
+    margin-right:40px;
+    position: relative;
+}
+
+.third-news .third-label{
+    position: relative;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: 'Roboto';
+}
+
+.third-news .third-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Roboto';
+}
+    
+.third-news .third-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: 'Roboto'; 
+}
+
+.third-news .third-news-thumb{
+    position: relative;
+}
+
+/***** advertising start *****/
+
+.advertising{
+    background-color: #DCDCDC;
+    text-align:center;
+    
+}
+
+.advertise {
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+/***** start fourth news *****/
+
+
+
+.fourth-news article{
+    float:left;
+    margin-right:40px;
+    position: relative;
+
+}
+
+.fourth-news .fourth-label{
+    position: relative;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: 'Roboto';
+}
+
+.fourth-news .fourth-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Roboto';
+}
+    
+.fourth-news .fourth-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: 'Roboto';  
+    padding-bottom: 20px; 
+}
+
+.fourth-news .fourth-news-thumb{
+    position: relative;
+    margin-top: 2px;   
+}
+
+/***** start fifth news *****/
+
+
+
+.fifth-news article{
+    float:left;
+    margin-right:40px;
+    position: relative;
+}
+
+
+.fifth-news .fifth-label{
+    position: relative;
+    text-transform:uppercase;
+    color:blue;
+    font-weight:bold;
+    font-size: 0.6em;
+    font-family: 'Roboto';
+}
+
+.fifth-news .fifth-title{
+    position: relative;
+    font-size:1.1em;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Roboto';
+}
+    
+
+.fifth-news .fifth-description{
+    font-size: 0.9em;
+    line-height: 17px;
+    color: black;
+    font-family: 'Roboto';
+    padding-bottom: 20px; 
+
+}
+
+.fifth-news .fifth-news-thumb{
+    position: relative;
+    margin-top: 2px;
+    
+}
+
+/***** footer edition *****/
+
+#footer{
+    
+    background-color:#ccff33;
+    padding: 3px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.img-footer{
+    margin-top: 10px;
+}
+
+.text-footer{
+    margin-top: -40px;
+    margin-right: 10px;
+    font-size: 0.7em;
+    text-decoration: black;
+    text-align: end;
+    flex: end;
+}
+
+/***** text editing *****/
+
+.section-title {
+    margin-top: 5px;
+    text-transform:uppercase;
+    color:#014562;
+    font-weight:bold;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+}
+
+.section-final-text {
+    text-transform:uppercase;
+    color:#014562;
+    font-weight:bold;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    float: right;
+}
+
+.clearfix:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
+}

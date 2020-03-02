@@ -47,7 +47,7 @@ header{
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 
 .news .title{
@@ -55,14 +55,14 @@ header{
     margin-bottom: 7px;
     font-weight: bold;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 
 .news .description{
     font-size: 0.9em;
     line-height: 17px;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Roboto'f;
 }
 
 .news .overlay{
@@ -89,7 +89,7 @@ header{
 
 .second-news article{
     float:left;
-    margin-right:47px;
+    margin-right:75px;
     
 }
 
@@ -100,7 +100,7 @@ header{
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     
 }
 
@@ -110,7 +110,7 @@ header{
     margin-bottom: 7px;
     font-weight: bold;
     color:black;
-    font-family: sans-serif;
+    font-family: 'Roboto'f;
     
     
 }
@@ -120,12 +120,12 @@ header{
     font-size: 0.9em;
     line-height: 17px;
     color: black;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 
 .second-news .second-news-thumb{
     float:left;
-    margin-right: 10px;
+    margin-right: 8px;
     
     
 }
@@ -149,7 +149,7 @@ header{
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
-    font-family: sans-serif;
+    font-family: 'Roboto'f;
 }
 
 .third-news .third-title{
@@ -158,14 +158,14 @@ header{
     margin-bottom: 2px;
     font-weight: bold;
     color:black;
-    font-family: sans-serif;
+    font-family: 'Roboto'f;
 }
     
 .third-news .third-description{
     font-size: 0.9em;
     line-height: 17px;
     color: black;
-    font-family: sans-serif; 
+    font-family: 'Roboto'; 
 }
 
 .third-news .third-news-thumb{
@@ -202,7 +202,7 @@ header{
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 
 .fourth-news .fourth-title{
@@ -211,14 +211,14 @@ header{
     margin-bottom: 2px;
     font-weight: bold;
     color:black;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
     
 .fourth-news .fourth-description{
     font-size: 0.9em;
     line-height: 17px;
     color: black;
-    font-family: sans-serif;  
+    font-family: 'Roboto';  
     padding-bottom: 20px; 
 }
 
@@ -244,7 +244,7 @@ header{
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 
 .fifth-news .fifth-title{
@@ -253,7 +253,7 @@ header{
     margin-bottom: 2px;
     font-weight: bold;
     color:black;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
     
 
@@ -261,7 +261,7 @@ header{
     font-size: 0.9em;
     line-height: 17px;
     color: black;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     padding-bottom: 20px; 
 
 }
@@ -303,7 +303,7 @@ header{
     color:#014562;
     font-weight:bold;
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 
 .section-final-text {
@@ -311,7 +311,7 @@ header{
     color:#014562;
     font-weight:bold;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     float: right;
 }
 

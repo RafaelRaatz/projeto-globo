@@ -110,7 +110,7 @@ header{
     margin-bottom: 7px;
     font-weight: bold;
     color:black;
-    font-family: 'Roboto'f;
+    font-family: 'Roboto';
     
     
 }
@@ -149,7 +149,7 @@ header{
     color:blue;
     font-weight:bold;
     font-size: 0.6em;
-    font-family: 'Roboto'f;
+    font-family: 'Roboto';
 }
 
 .third-news .third-title{
@@ -158,7 +158,7 @@ header{
     margin-bottom: 2px;
     font-weight: bold;
     color:black;
-    font-family: 'Roboto'f;
+    font-family: 'Roboto';
 }
     
 .third-news .third-description{

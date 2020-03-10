@@ -26,11 +26,13 @@ header{
 .news{  
     margin-bottom:32px;
     position: relative;
+    display: flex;
+    flex-direction: row;
 
 }
 
 .news article{
-    float:left;
+
     margin-right:60px;
     position: relative;
 }
@@ -85,17 +87,17 @@ header{
 
 .second-news{
     margin-bottom: 32px;
-}
-
-.second-news article{
-    float:left;
-    margin-right:66px;
+    display: flex;
+    flex-direction: row;
     
 }
 
+.first-article{
+    margin-right: 80px;
+}
 
 .second-news .second-label{
-    float:left;
+    
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -103,8 +105,9 @@ header{
     
 }
 
+
 .second-news .second-title{
-    float:left;
+    
     font-size:1.1em;
     margin-bottom: 7px;
     font-weight: bold;
@@ -112,14 +115,13 @@ header{
 }
 
 .second-news .second-description{
-    float:left;
     font-size: 0.9em;
     line-height: 17px;
     color: black;
 }
 
 .second-news .second-news-thumb{
-    float:left;
+
     margin-right: 8px;
     
     
@@ -128,18 +130,18 @@ header{
 /***** start third news *****/
 
 .third-news {     
-    position: relative;
+    display: flex;
     margin-bottom: 32px;
 }
 
 .third-news article{
-    float:left;
+   
     margin-right:40px;
-    position: relative;
+    
 }
 
 .third-news .third-label{
-    position: relative;
+    
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -147,7 +149,7 @@ header{
 }
 
 .third-news .third-title{
-    position: relative;
+
     font-size:1.1em;
     margin-bottom: 2px;
     font-weight: bold;
@@ -160,9 +162,7 @@ header{
     color: black; 
 }
 
-.third-news .third-news-thumb{
-    position: relative;
-}
+
 
 /***** advertising start *****/
 
@@ -179,17 +179,17 @@ header{
 
 /***** start fourth news *****/
 
-
+.fourth-news{
+    display: flex;
+}
 
 .fourth-news article{
-    float:left;
+    
     margin-right:40px;
-    position: relative;
 
 }
 
-.fourth-news .fourth-label{
-    position: relative;
+.fourth-news .fourth-label{ 
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -197,7 +197,7 @@ header{
 }
 
 .fourth-news .fourth-title{
-    position: relative;
+    
     font-size:1.1em;
     margin-bottom: 2px;
     font-weight: bold;
@@ -212,23 +212,24 @@ header{
 }
 
 .fourth-news .fourth-news-thumb{
-    position: relative;
+
     margin-top: 2px;   
 }
 
 /***** start fifth news *****/
 
-
+.fifth-news {
+    display: flex;
+}
 
 .fifth-news article{
-    float:left;
     margin-right:40px;
     position: relative;
 }
 
 
 .fifth-news .fifth-label{
-    position: relative;
+    
     text-transform:uppercase;
     color:blue;
     font-weight:bold;
@@ -236,7 +237,7 @@ header{
 }
 
 .fifth-news .fifth-title{
-    position: relative;
+    
     font-size:1.1em;
     margin-bottom: 2px;
     font-weight: bold;
@@ -253,7 +254,7 @@ header{
 }
 
 .fifth-news .fifth-news-thumb{
-    position: relative;
+    
     margin-top: 2px;
     
 }
@@ -301,14 +302,7 @@ body {
     color:#014562;
     font-weight:bold;
     font-size: 1.2em;
-    float: right;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.clearfix:after{
-    content:".";
-    display:block;
-    clear:both;
-    visibility:hidden;
-    height:0;
-    overflow:hidden;
-}
